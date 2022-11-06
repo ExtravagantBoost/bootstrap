@@ -379,6 +379,7 @@ button,
 [type=reset],
 [type=submit] {
   -webkit-appearance: button;
+  appearance:button;
 }
 button:not(:disabled),
 [type=button]:not(:disabled),
@@ -437,6 +438,7 @@ legend + * {
 [type=search] {
   outline-offset: -2px;
   -webkit-appearance: textfield;
+  appearance:textfield;
 }
 
 /* rtl:raw:
@@ -449,6 +451,7 @@ legend + * {
 */
 ::-webkit-search-decoration {
   -webkit-appearance: none;
+  appearance:none;
 }
 
 ::-webkit-color-swatch-wrapper {
@@ -458,11 +461,13 @@ legend + * {
 ::-webkit-file-upload-button {
   font: inherit;
   -webkit-appearance: button;
+  appearance:button;
 }
 
 ::file-selector-button {
   font: inherit;
   -webkit-appearance: button;
+  appearance:button;
 }
 
 output {
@@ -2271,7 +2276,6 @@ textarea.form-control-lg {
   -moz-appearance: none;
   appearance: none;
   -webkit-print-color-adjust: exact;
-  color-adjust: exact;
   print-color-adjust: exact;
 }
 .form-check-input[type=checkbox] {
@@ -3598,6 +3602,7 @@ textarea.form-control-lg {
 .dropdown-toggle-split {
   padding-right: 0.5625rem;
   padding-left: 0.5625rem;
+  content:"‎";
 }
 .dropdown-toggle-split::after, .dropup .dropdown-toggle-split::after, .dropend .dropdown-toggle-split::after {
   margin-left: 0;
